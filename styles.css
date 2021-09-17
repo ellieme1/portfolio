@@ -10,7 +10,7 @@
     background-color: #FBEDCD; /* Light Yellow */
   }
   .photo-grid-item img {
-    width: 200px;
+    width: 45%;
     height: auto;
     padding: 25px;
     border-radius: 20px;
@@ -26,7 +26,7 @@
     background-color: #FBEDCD;/* Yellow */
   }
   .photo-grid-item img {
-    width: 350px;
+    width: 250px;
     height: auto;
     padding: 25px;
     border-radius: 20px;
@@ -34,13 +34,21 @@
     border-radius: 5px;
     margin: 10px;
   }
+  .photo-grid-item p {
+    text-align: center;
+    font-family: "Veranda", sans-serif;
+    color: #414141
+    padding: 15px;
+
+  }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   body {
-    background-color: #B2D6FF; /* Blue */
+    background-color: #FFFFFF; /* grey */
   }
+
   .photo-grid-item img {
     width: 500px;
     height: auto;
@@ -49,6 +57,13 @@
     border: 2px solid #5D6063;
     border-radius: 5px;
     margin: 10px;
+  }
+  .photo-grid-item p {
+    text-align: center;
+    font-family: "Veranda", sans-serif;
+    color: #414141
+    padding: 15px;
+
   }
 }
 
@@ -75,13 +90,7 @@
   margin: 10px;
 }
 */
-.photo-grid-item p {
-  text-align: center;
-  font-family: "Veranda", sans-serif;
-  color: #414141
-  padding: 15px;
 
-}
 
 
 .horizontal-menu {
